@@ -1,3 +1,14 @@
+OUTPUT:1
+[10, 13, 22, 35, 52, 83]
+enter the number : 10
+[13, 22, 35, 52, 83]
+
+OUTPUT:2
+name  :  Tim
+birthday  :  1990-03-10
+job  :  Software Engineer
+
+OUTPUT: 3
 tina devops engineer newyork
  tim developer sydney
  The second employees country is:  australia
