@@ -10,3 +10,16 @@ while True:
         break
     else:
         print("Too high")
+ 
+
+# Output:
+# Enter Your Number: 3
+# too low
+# Enter Your Number: 1
+# too low
+# Enter Your Number: 2
+# too low
+# Enter Your Number: 4
+# too low
+# Enter Your Number: 5
+# You won
