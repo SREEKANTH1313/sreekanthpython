@@ -46,3 +46,9 @@ seconds = 60 - current_time.second
 print("Your Next Birthday comes within : " + days + " days", ",",  hours, "hours", ",", minutes, "minutes", "and",
       seconds, "Seconds")
 
+#Outpu
+# Please Enter your birth of day: 04
+# Please Enter your birth of Month:  01
+# Please Enter your birth of year: 2000
+# Your Next Birthday comes within : 78 days , 3 hours , 28 minutes and 55 Seconds
+
