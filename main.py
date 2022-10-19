@@ -131,6 +131,44 @@ prof_obj = Professor(first_name, last_name, age)
 prof_obj.print_name()
 
 
+# Output
+# Enter first name:  ssree
+# Enter last name:  a
+# Enter age:  23
+# Enter subject list he/she teaches: matgs
+# Full name: ssree a
+# List of lectures student attend: ['matgs']
+# Enter the new list of lecturers student attend:  scie
+# New lectures list is: ['matgs', 'scie']
+# Enter list of lecturers to remove:  scie
+# Subjects list after remove is: ['matgs']
+# Enter the first name: asd
+# Enter the last name:  a
+# Enter the  age: 34
+# Enter subject list he/she teaches: mmt
+# ['mmt']
+# Full name: ssree a
+# List of subjects he teach: ['mmt']
+# Enter new list of subjects to teach:  mtm
+# New subjects list is: ['mmt', 'mtm']
+# Enter the list of subjects to remove:  mmt
+#  After remove the subjects list is: ['mtm']
+# Enter the lecture name: muni
+# Enter max no,of students: 45
+# Enter the Duration  in minutes: 58
+# Enter the  professors teach the list of subjects is: mfca
+#  Enter the lecture of name: muni
+# Duration of the lecture in minutes is 58
+# Enter the new list of professors to teach the subjects: cn
+# Old and New professors list is: ['mfca', 'cn']
+# Please Enter the student first name: sdf
+# Please Enter the student last  name: a
+# Please Enter the student age: 43
+# Person name is: sdf a
+# Please Enter the professor first name: asdfg
+# Please Enter the professor last  name: a
+# Please Enter the professor age: 54
+# Person name is: asdfg a
 
 
 
