@@ -29,18 +29,3 @@ while True:
 total = tea1 + Ginger1 + coffee1 + Boost1
 print('your total bill is : ', total)
 
-# QR  Code
-# import pyqrcode
-# import qrcode
-# # # from pyzbar import decode
-# # # from PIL
-# # import image
-# q = qrcode.QRCode(version=1, box_size=10, error_correction=qrcode.constants.ERROR_CORRECT_L, border=5)
-# q.add_data('b')
-# a = pyqrcode.create('Welcome to  My  Coffee Cafe')
-# a.png('Mycode.png', scale=8)
-# # b = qrcode.make('https://forms.gle/7px5fiJWqeJzfGno8')
-# b = qrcode.make('https://forms.gle/GcnDL5sGKD1MaT1h6')
-# b.save('Mycode.png')
-#
-
