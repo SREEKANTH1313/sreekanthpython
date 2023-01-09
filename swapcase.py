@@ -9,5 +9,6 @@ for i in a:
     elif i.isascii():
         b = b + i
 print(b)
+# ---OutPut---
 # Enter the any string: 'sreekanthAlaKuntLA123"Python2."'
 # 'SREEKANTHaLAkUNTla123"pYTHON2."'
