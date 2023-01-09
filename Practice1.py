@@ -17,14 +17,14 @@ print(my_newlist)
 
 # Second Method
 l1 = [] # Here We creating a new empty list
-user = int(input("Enter the number: "))
+user = int(input("Enter the range: ")) # Here we taking the range from user 
 for i in range(1, user):
     # if i % 2 == 0: # if you want to only even numbers then you will use this condition
     l1.append(i)
 
 print(l1)
 my_new_list = [] # Here We creating a new empty list
-user_input = int(input("Enter the number: "))
+user_input = int(input("Enter the number: "))   # Here we taking user input beacuse of here we  comparing the values in above list
 for i in l1:
     if i > user_input:
         my_new_list.append(i)
