@@ -1,4 +1,4 @@
-print("Welcome to Our Coffee Cafe")
+print("Welcome to My Coffee Cafe")
 print("Please choose your favourite item's")
 print('1: ' 'Tea ')
 print('2: ' 'Ginger ')
@@ -9,7 +9,7 @@ Ginger1 = 0
 Boost1 = 0
 tea1 = 0
 while True:
-    user = input("Enter the your favourite item's: ").lower()
+    user = input("Enter the your favourite item's: ").lower() # Here We Providing two options  for you, you can enter item name or you can enter item nuber.
     quantity = int(input("Enter how many cups you want: "))
     if user == 'tea' or user == '1':
         tea1 = tea1 + quantity * 15
@@ -24,19 +24,20 @@ while True:
         break
 total = tea1 + Ginger1 + coffee1 + Boost1
 print('your total bill is : ', total)
+print('Thank You For Visit My Coffee Cafe')
 
-# QR  Code
-# import pyqrcode
-# import qrcode
-# # # from pyzbar import decode
-# # # from PIL
-# # import image
-# q = qrcode.QRCode(version=1, box_size=10, error_correction=qrcode.constants.ERROR_CORRECT_L, border=5)
-# q.add_data('b')
-# a = pyqrcode.create('Welcome to  My  Coffee Cafe')
-# a.png('Mycode.png', scale=8)
-# # b = qrcode.make('https://forms.gle/7px5fiJWqeJzfGno8')
-# b = qrcode.make('https://forms.gle/GcnDL5sGKD1MaT1h6')
-# b.save('Mycode.png')
-#
-
+# -----OUTPUT-----
+# Welcome to My Coffee Cafe
+# Please choose your favourite item's
+# 1: Tea 
+# 2: Ginger 
+# 3: Boost 
+# 4: coffee 
+# Enter the your favourite item's: coffee
+# Enter how many cups you want: 3
+# Please enter yes/ no if you want another  items: yes
+# Enter the your favourite item's: ginger
+# Enter how many cups you want: 4
+# Please enter yes/ no if you want another  items: No
+# your total bill is :  140
+# Thank You For Visit My Coffee Cafe
